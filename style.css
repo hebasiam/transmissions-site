@@ -45,6 +45,133 @@ ul {
 .btn-third:hover {
   background: #161616;
 }
+/* ============================= */
+/* Responsive Design For Mobile */
+/* ============================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+
+#navbar {
+flex-direction: column;
+height: auto;
+padding: 20px 0;
+}
+
+#navbar img {
+margin-left: 0;
+margin-bottom: 10px;
+}
+
+nav ul {
+margin-right: 0;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+header .content h1 {
+font-size: 32px;
+text-align: center;
+}
+
+header .content p {
+text-align: center;
+padding: 0 20px;
+}
+
+#offers .offers-items {
+flex-direction: column;
+gap: 30px;
+}
+
+#offers .offers-items img {
+width: 100%;
+max-width: 350px;
+}
+
+.hero-text h1 {
+font-size: 2rem;
+}
+
+.container {
+flex-direction: column;
+gap: 40px;
+}
+
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+header {
+height: auto;
+padding-bottom: 50px;
+}
+
+header .content {
+height: auto;
+padding: 40px 20px;
+}
+
+header .content h1 {
+font-size: 26px;
+}
+
+header .content p {
+font-size: 14px;
+}
+
+#about {
+height: auto;
+padding: 40px 20px;
+}
+
+#about .about-content p {
+margin-right: 0;
+font-size: 16px;
+}
+
+#offers {
+height: auto;
+padding: 40px 20px;
+}
+
+.hero-section {
+height: 50vh;
+}
+
+.hero-text h1 {
+font-size: 1.5rem;
+}
+
+.arrow-btn {
+font-size: 18px;
+padding: 8px 10px;
+}
+
+.contact-section {
+padding: 50px 20px;
+}
+
+.container {
+width: 100%;
+}
+
+.contact-info,
+.contact-form {
+width: 100%;
+}
+
+.contact-form button {
+width: 100%;
+}
+
+.site-footer {
+font-size: 13px;
+padding: 15px;
+}
+
+}
 
 .btn-primary:hover,
 .btn-secondary:hover,
@@ -630,3 +757,4 @@ header * {
       letter-spacing:0.5px;
       }
 /* Offers Section end */
+
